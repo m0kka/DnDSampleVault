@@ -22,23 +22,8 @@
               "icon": "lucide-file",
               "title": "DM Board"
             }
-          },
-          {
-            "id": "832238f2b7e7ede7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1-DM Toolkit/Map Calculator.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Map Calculator"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -124,10 +109,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1-DM Toolkit/Map Calculator.md"
+                "file": "1-DM Toolkit/DM Board.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Map Calculator"
+              "title": "Outline of DM Board"
             }
           },
           {
@@ -196,8 +181,8 @@
             "state": {
               "type": "DICE_ROLLER_VIEW",
               "state": {},
-              "icon": "dices",
-              "title": "Dice Tray"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -212,6 +197,16 @@
           },
           {
             "id": "1e58f9d430d43993",
+            "type": "leaf",
+            "state": {
+              "type": "DICE_ROLLER_VIEW",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "d3ae06ea50ca7c21",
             "type": "leaf",
             "state": {
               "type": "DICE_ROLLER_VIEW",
@@ -279,8 +274,9 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "832238f2b7e7ede7",
+  "active": "a6dd116ed7ac93a4",
   "lastOpenFiles": [
+    "1-DM Toolkit/Map Calculator.md",
     "2-World/Locations/The Known World/The Known World.md",
     "2-World/Locations/The Known World/Homes of Âzzhun/Homes of Âzzhun.md",
     "2-Campaign/Chapters/0-Introduction.md",
@@ -311,7 +307,6 @@
     "New Text Document.txt",
     "3-Compendium/Items/Abyssal Seeds/Heartcleaver.md",
     "3-Compendium/Factions/The Demon Lords.md",
-    "1-DM Toolkit/DM Screen (Side).md",
     "3-Compendium/Conditions",
     "3-Compendium/Items/Abyssal Seeds",
     "3-Compendium/NPCs/The Abyssal Seeds",
