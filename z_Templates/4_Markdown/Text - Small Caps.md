@@ -1,0 +1,1 @@
+<span style="font-variant: small-caps;">text</span>

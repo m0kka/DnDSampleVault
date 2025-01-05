@@ -1,0 +1,853 @@
+{
+  "autoParse": true,
+  "calendars": [
+    {
+      "name": "Letania Oculi",
+      "description": "The Letania Oculi is the predominant calendar used throughout the World. It was created following the Eye's victory against the scattered lords and ladies of the Homes of Âzzhun.",
+      "path": [],
+      "supportInlineEvents": true,
+      "inlineEventTag": "inline-events",
+      "showIntercalarySeparately": true,
+      "static": {
+        "displayDayNumber": false,
+        "incrementDay": false,
+        "displayMoons": true,
+        "firstWeekDay": 0,
+        "overflow": false,
+        "padDays": 2,
+        "padMonths": 2,
+        "weekdays": [
+          {
+            "type": "day",
+            "name": "Starday",
+            "id": "ID_a8e979984938"
+          },
+          {
+            "type": "day",
+            "name": "Sunday",
+            "id": "ID_1b68bb78ca1b"
+          },
+          {
+            "type": "day",
+            "name": "Moonday",
+            "id": "ID_c8b86aea0998"
+          },
+          {
+            "type": "day",
+            "name": "Godsday",
+            "id": "ID_b8097a18e95b"
+          },
+          {
+            "type": "day",
+            "name": "Waterday",
+            "id": "ID_1918c99949ca"
+          },
+          {
+            "type": "day",
+            "name": "Earthday",
+            "id": "ID_fa295a1bab89"
+          },
+          {
+            "type": "day",
+            "name": "Freeday",
+            "id": "ID_6a485ada3ae8"
+          }
+        ],
+        "months": [
+          {
+            "name": "Needfest",
+            "type": "month",
+            "length": 7,
+            "interval": 1,
+            "offset": 0,
+            "id": "ID_b8a9e9da8a48"
+          },
+          {
+            "name": "Fireseek",
+            "type": "month",
+            "length": 28,
+            "interval": 1,
+            "offset": 0,
+            "id": "ID_39b90bd8189a"
+          },
+          {
+            "name": "Readying",
+            "type": "month",
+            "length": 28,
+            "interval": 1,
+            "offset": 0,
+            "id": "ID_48a9081ad839"
+          },
+          {
+            "name": "Coldeven",
+            "type": "month",
+            "length": 28,
+            "interval": 1,
+            "offset": 0,
+            "id": "ID_5a7b6beadb68"
+          },
+          {
+            "name": "Growfest",
+            "type": "month",
+            "length": 7,
+            "interval": 1,
+            "offset": 0,
+            "id": "ID_48c8d82b1908"
+          },
+          {
+            "name": "Planting",
+            "type": "month",
+            "length": 28,
+            "interval": 1,
+            "offset": 0,
+            "id": "ID_081a793a49da"
+          },
+          {
+            "name": "Flocktime",
+            "type": "month",
+            "length": 28,
+            "interval": 1,
+            "offset": 0,
+            "id": "ID_eb68a89a0a2a"
+          },
+          {
+            "name": "Wealsun",
+            "type": "month",
+            "length": 28,
+            "interval": 1,
+            "offset": 0,
+            "id": "ID_9b3a098ae908"
+          },
+          {
+            "name": "Richfest",
+            "type": "month",
+            "length": 7,
+            "interval": 1,
+            "offset": 0,
+            "id": "ID_f99b4b3a08b8"
+          },
+          {
+            "name": "Reaping",
+            "type": "month",
+            "length": 28,
+            "interval": 1,
+            "offset": 0,
+            "id": "ID_ebe9eb68ea39"
+          },
+          {
+            "name": "Goodmonth",
+            "type": "month",
+            "length": 28,
+            "interval": 1,
+            "offset": 0,
+            "id": "ID_fb3b6af9895b"
+          },
+          {
+            "name": "Harvester",
+            "type": "month",
+            "length": 28,
+            "interval": 1,
+            "offset": 0,
+            "id": "ID_395bcb399b8a"
+          },
+          {
+            "name": "Brewfest",
+            "type": "month",
+            "length": 7,
+            "interval": 1,
+            "offset": 0,
+            "id": "ID_e8b908181afa"
+          },
+          {
+            "name": "Patchwall",
+            "type": "month",
+            "length": 28,
+            "interval": 1,
+            "offset": 0,
+            "id": "ID_cbda3b399969"
+          },
+          {
+            "name": "Ready'reat",
+            "type": "month",
+            "length": 28,
+            "interval": 1,
+            "offset": 0,
+            "id": "ID_592a2a690bf8"
+          },
+          {
+            "name": "Sunsebb",
+            "type": "month",
+            "length": 28,
+            "interval": 1,
+            "offset": 0,
+            "id": "ID_39e8faf8e9b8"
+          }
+        ],
+        "moons": [
+          {
+            "name": "Tharis",
+            "cycle": 28,
+            "offset": 3,
+            "faceColor": "#ffffff",
+            "shadowColor": "#292b4a",
+            "id": "ID_f8997b39b8b8"
+          },
+          {
+            "name": "Lunis",
+            "cycle": 91,
+            "offset": 46,
+            "faceColor": "#ffffff",
+            "shadowColor": "#292b4a",
+            "id": "ID_7afbb9b88be8"
+          }
+        ],
+        "leapDays": [],
+        "eras": [
+          {
+            "name": "Common Year",
+            "format": "{{era_name}}",
+            "date": {
+              "year": 1,
+              "month": 0,
+              "day": 1
+            },
+            "id": "ID_db994869db7b",
+            "endsYear": false,
+            "isEvent": false,
+            "type": "era",
+            "category": null,
+            "isStartingEra": false
+          }
+        ]
+      },
+      "current": {
+        "day": 1,
+        "month": 10,
+        "year": 620
+      },
+      "events": [
+        {
+          "name": "Winter Solstice",
+          "description": "The winter solstice marks the shortest day and longest night of the year, when the sun is at its lowest arc in the sky.",
+          "id": "824573",
+          "note": null,
+          "date": {
+            "day": 4,
+            "month": 0,
+            "year": [
+              null,
+              null
+            ]
+          },
+          "type": "Recurring",
+          "category": "ID_ba3b49691869",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          }
+        },
+        {
+          "name": "Spring Equinox",
+          "description": "The 4th of Growfest is the first day of Low Summer in the Letania Oculi and the Spring Equinox.",
+          "id": "824574",
+          "note": null,
+          "date": {
+            "day": 4,
+            "month": 4,
+            "year": [
+              null,
+              null
+            ]
+          },
+          "type": "Recurring",
+          "category": "ID_ba3b49691869",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          }
+        },
+        {
+          "name": "Summer Solstice",
+          "description": "\tAt the summer solstice, the Sun travels the longest path through the sky, and that day therefore has the most daylight.",
+          "id": "824575",
+          "note": null,
+          "date": {
+            "day": 4,
+            "month": 8,
+            "year": [
+              null,
+              null
+            ]
+          },
+          "type": "Recurring",
+          "category": "ID_ba3b49691869",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          }
+        },
+        {
+          "name": "Autumn Equinox",
+          "description": "The 4th of Brewfest is the Autumnal Equinox, when the sun crosses the equator from north to south. This date is the official end of high summer and the beginning of autumn on the Letania Oculi.",
+          "id": "824576",
+          "note": null,
+          "date": {
+            "day": 4,
+            "month": 12,
+            "year": [
+              null,
+              null
+            ]
+          },
+          "type": "Recurring",
+          "category": "ID_ba3b49691869",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          }
+        },
+        {
+          "name": "Dark Night",
+          "description": "Dark Night, also called Black Night, Star Night, and the Night of Hopeful Dawn, is observed on Goodmonth 11 when both moons are new.",
+          "id": "824578",
+          "note": null,
+          "date": {
+            "day": 11,
+            "month": 10,
+            "year": [
+              null,
+              null
+            ]
+          },
+          "type": "Recurring",
+          "category": "ID_ba3b49691869",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          }
+        },
+        {
+          "name": "Faerieluck",
+          "description": "Faerieluck is a holiday celebrated by the elves in early spring, when the power of Faerie runs high and they celebrate with their fey cousins: the sprites, buckawns, pixies, nymphs and so forth. The point of the festival is to remind the elves of their ancient kinship with these creatures. The day is spent playing practical jokes, engaging in battles of wit, and general merriment.",
+          "id": "824583",
+          "note": null,
+          "date": {
+            "day": 11,
+            "year": [
+              null,
+              null
+            ],
+            "month": 2
+          },
+          "type": "Recurring",
+          "category": "ID_ba3b49691869",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          }
+        },
+        {
+          "name": "Desportium of Magic",
+          "description": "The highlight of Growfest is the Desportium of Magic. During this day torchlight only, no magic illumination is supposed to be used. Wizards and Sorcerers then perform feats of illusion and magic trying to outdo one another with their displays. Usually there is a panel of judges to decide, in the larger cities there is usually a limit of 5-person teams competing. Each performance during the Desportium of Magic uses a long established theme, that of an attack on the town by various monsters and Dark Elves, repelled by brave warriors and spellcasters. The displays, made up of any number of spells cast without the use of magic devices, cannot actually cause any harm to property or people, but must be as wonderful, striking, detailed, and lifelike as possible.",
+          "id": "824585",
+          "note": null,
+          "date": {
+            "day": 7,
+            "year": [
+              null,
+              null
+            ],
+            "month": 4
+          },
+          "type": "Recurring",
+          "category": "secular-holidays",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          }
+        }
+      ],
+      "id": "ID_aa7998d8a99b",
+      "categories": [
+        {
+          "name": "Natural Events",
+          "id": "natural-events",
+          "color": "#2E7D32"
+        },
+        {
+          "name": "Holidays",
+          "id": "secular-holidays",
+          "color": "#0D47A1"
+        },
+        {
+          "name": "Magical Events",
+          "id": "magical-events",
+          "color": "#311B92"
+        },
+        {
+          "name": "Miscellaneous Events",
+          "id": "miscellaneous-events",
+          "color": "#0288D1"
+        },
+        {
+          "id": "ID_ba3b49691869",
+          "color": "#d60000",
+          "name": "Lunar Events"
+        },
+        {
+          "id": "ID_888be9a9fac8",
+          "color": "#000000",
+          "name": "Session"
+        },
+        {
+          "id": "ID_0978483bb8f9",
+          "color": "#58e251",
+          "name": "Miscellaneous Event"
+        },
+        {
+          "id": "ID_59e8aacae838",
+          "color": "#ff6600",
+          "name": "Story Events"
+        }
+      ],
+      "dateFormat": "D of MMMM (MM), Y LO"
+    },
+    {
+      "name": "Template Calendar",
+      "description": "A calendar for the real world.",
+      "path": [],
+      "supportInlineEvents": false,
+      "inlineEventTag": "inline-events",
+      "showIntercalarySeparately": true,
+      "static": {
+        "displayDayNumber": false,
+        "incrementDay": true,
+        "displayMoons": true,
+        "firstWeekDay": 1,
+        "overflow": true,
+        "weekdays": [
+          {
+            "type": "day",
+            "name": "Sunday",
+            "id": "ID_19ea684b4a08"
+          },
+          {
+            "type": "day",
+            "name": "Monday",
+            "id": "ID_2928b90ab949"
+          },
+          {
+            "type": "day",
+            "name": "Tuesday",
+            "id": "ID_0ad9a8f9e95b"
+          },
+          {
+            "type": "day",
+            "name": "Wednesday",
+            "id": "ID_195a4b290bc9"
+          },
+          {
+            "type": "day",
+            "name": "Thursday",
+            "id": "ID_abe8c89b0999"
+          },
+          {
+            "type": "day",
+            "name": "Friday",
+            "id": "ID_2b5b8a79fa4a"
+          },
+          {
+            "type": "day",
+            "name": "Saturday",
+            "id": "ID_1a78cb79c8cb"
+          }
+        ],
+        "months": [
+          {
+            "name": "January",
+            "type": "month",
+            "length": 31,
+            "interval": 1,
+            "offset": 0,
+            "id": "ID_e9997a780b3a"
+          },
+          {
+            "name": "February",
+            "type": "month",
+            "length": 28,
+            "interval": 1,
+            "offset": 0,
+            "id": "ID_b8c9ebeb0b89"
+          },
+          {
+            "name": "March",
+            "type": "month",
+            "length": 31,
+            "interval": 1,
+            "offset": 0,
+            "id": "ID_b83bda2b9be8"
+          },
+          {
+            "name": "April",
+            "type": "month",
+            "length": 30,
+            "interval": 1,
+            "offset": 0,
+            "id": "ID_29baea7b28ab"
+          },
+          {
+            "name": "May",
+            "type": "month",
+            "length": 31,
+            "interval": 1,
+            "offset": 0,
+            "id": "ID_6a3899fad909"
+          },
+          {
+            "name": "June",
+            "type": "month",
+            "length": 30,
+            "interval": 1,
+            "offset": 0,
+            "id": "ID_384aeb1afa8a"
+          },
+          {
+            "name": "July",
+            "type": "month",
+            "length": 31,
+            "interval": 1,
+            "offset": 0,
+            "id": "ID_48b8cba87b8a"
+          },
+          {
+            "name": "August",
+            "type": "month",
+            "length": 31,
+            "interval": 1,
+            "offset": 0,
+            "id": "ID_fa0b1a6bab8a"
+          },
+          {
+            "name": "September",
+            "type": "month",
+            "length": 30,
+            "interval": 1,
+            "offset": 0,
+            "id": "ID_da880b8af849"
+          },
+          {
+            "name": "October",
+            "type": "month",
+            "length": 31,
+            "interval": 1,
+            "offset": 0,
+            "id": "ID_babba8186968"
+          },
+          {
+            "name": "November",
+            "type": "month",
+            "length": 30,
+            "interval": 1,
+            "offset": 0,
+            "id": "ID_da582bfaf9b9"
+          },
+          {
+            "name": "December",
+            "type": "month",
+            "length": 31,
+            "interval": 1,
+            "offset": 0,
+            "id": "ID_ba1bab4a3a28"
+          }
+        ],
+        "moons": [
+          {
+            "name": "Moon",
+            "cycle": 29.530588853,
+            "offset": 9.24953,
+            "faceColor": "#ffffff",
+            "shadowColor": "#000000",
+            "id": "ID_a9ab186b1819"
+          }
+        ],
+        "leapDays": [
+          {
+            "name": "Leap Day",
+            "type": "leapday",
+            "interval": [
+              {
+                "ignore": false,
+                "exclusive": false,
+                "interval": 4
+              },
+              {
+                "ignore": false,
+                "exclusive": true,
+                "interval": 100
+              },
+              {
+                "ignore": false,
+                "exclusive": false,
+                "interval": 400
+              }
+            ],
+            "offset": 0,
+            "timespan": 1,
+            "intercalary": false,
+            "id": "ID_b91ad86a887a"
+          }
+        ],
+        "eras": [
+          {
+            "name": "Before Christ",
+            "format": "{{era_name}}",
+            "id": "ID_9a2978c92baa",
+            "endsYear": false,
+            "isEvent": false,
+            "type": "era",
+            "category": null,
+            "isStartingEra": true,
+            "date": {
+              "year": 1,
+              "month": 0,
+              "day": 1
+            }
+          },
+          {
+            "name": "Anno Domini",
+            "format": "{{era_name}}",
+            "date": {
+              "year": 1,
+              "month": 0,
+              "day": 1
+            },
+            "id": "ID_a8db38899a2b",
+            "endsYear": false,
+            "isEvent": false,
+            "type": "era",
+            "category": null,
+            "isStartingEra": false
+          }
+        ],
+        "offset": 0,
+        "padDays": 2,
+        "padMonths": 2
+      },
+      "current": {
+        "day": 4,
+        "month": 0,
+        "year": 2025
+      },
+      "events": [],
+      "id": "ID_69a9b9d818cb",
+      "categories": [
+        {
+          "name": "Natural Events",
+          "id": "natural-events",
+          "color": "#2E7D32"
+        },
+        {
+          "name": "Christian Holidays",
+          "id": "christian-holidays",
+          "color": "#9b2c2c"
+        },
+        {
+          "name": "Secular Holidays",
+          "id": "secular-holidays",
+          "color": "#0D47A1"
+        },
+        {
+          "name": "Historical Events",
+          "id": "historical-events",
+          "color": "#455A64"
+        },
+        {
+          "name": "Miscellaneous Events",
+          "id": "miscellaneous-events",
+          "color": "#0288D1"
+        },
+        {
+          "id": "ID_e9fa6b5a7afa",
+          "color": "#9ca0e5",
+          "name": [
+            "Session"
+          ]
+        },
+        {
+          "id": "ID_0a5a2adba96b",
+          "color": "#47c652",
+          "name": [
+            "Session"
+          ]
+        },
+        {
+          "id": "ID_f9c9baaaba78",
+          "color": "#5f08c9",
+          "name": [
+            "Session"
+          ]
+        },
+        {
+          "id": "ID_8bab28a87999",
+          "color": "#b402d3",
+          "name": [
+            "Session"
+          ]
+        },
+        {
+          "id": "ID_7b5a284b4b88",
+          "color": "#2f8704",
+          "name": [
+            "Session"
+          ]
+        },
+        {
+          "id": "ID_c9abba08891a",
+          "color": "#fcf280",
+          "name": [
+            "Session"
+          ]
+        },
+        {
+          "id": "ID_0ac9f9ab8ac9",
+          "color": "#53e882",
+          "name": [
+            "Session"
+          ]
+        },
+        {
+          "id": "ID_580b3a89d919",
+          "color": "#6d77c6",
+          "name": [
+            "Session"
+          ]
+        },
+        {
+          "id": "ID_1a39ca6aeac8",
+          "color": "#efaad2",
+          "name": [
+            "Session"
+          ]
+        },
+        {
+          "id": "ID_aaeb19ca8ab9",
+          "color": "#808fce",
+          "name": [
+            "Session"
+          ]
+        },
+        {
+          "id": "ID_0b282acbdafa",
+          "color": "#063466",
+          "name": [
+            "Session"
+          ]
+        },
+        {
+          "id": "ID_4bc9eaca2b8a",
+          "color": "#768ff2",
+          "name": [
+            "Session"
+          ]
+        },
+        {
+          "id": "ID_d9c918eab9a9",
+          "color": "#ffa49e",
+          "name": [
+            "Session"
+          ]
+        },
+        {
+          "id": "ID_19ebca399a9b",
+          "color": "#9df2e8",
+          "name": [
+            "Session"
+          ]
+        },
+        {
+          "id": "ID_78abba79cb48",
+          "color": "#3ed66e",
+          "name": [
+            "Session"
+          ]
+        },
+        {
+          "id": "ID_8aa8ea9aab4b",
+          "color": "#e54779",
+          "name": [
+            "Session"
+          ]
+        },
+        {
+          "id": "ID_6a19f8395918",
+          "color": "#f24bc8",
+          "name": [
+            "Session"
+          ]
+        },
+        {
+          "id": "ID_bb191bba8be8",
+          "color": "#b586d8",
+          "name": [
+            "Session"
+          ]
+        },
+        {
+          "id": "ID_38cb4a0a2b8a",
+          "color": "#d38152",
+          "name": [
+            "Session"
+          ]
+        },
+        {
+          "id": "ID_ba5a39ba5999",
+          "color": "#0bba68",
+          "name": [
+            "Session"
+          ]
+        },
+        {
+          "id": "ID_692949ca493b",
+          "color": "#f984f5",
+          "name": [
+            "Session"
+          ]
+        }
+      ]
+    }
+  ],
+  "configDirectory": null,
+  "dailyNotes": false,
+  "dateFormat": "YYYY-MM-DD",
+  "defaultCalendar": "ID_aa7998d8a99b",
+  "eventPreview": true,
+  "exit": {
+    "saving": true,
+    "event": false,
+    "calendar": false,
+    "savingEvent": false
+  },
+  "eventFrontmatter": false,
+  "parseDates": false,
+  "version": {
+    "major": 1,
+    "minor": 5,
+    "patch": 0,
+    "beta": null
+  },
+  "debug": false,
+  "askedToMoveFC": false,
+  "askedAboutSync": false,
+  "syncBehavior": "Ask",
+  "inlineEventsTag": "inline-events",
+  "paths": [
+    [
+      "/",
+      "DEFAULT"
+    ],
+    [
+      "z_Templates",
+      "ID_69a9b9d818cb"
+    ]
+  ]
+}
